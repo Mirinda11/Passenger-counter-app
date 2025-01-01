@@ -1,69 +1,30 @@
 // document.getElementById("count-el").innerText = 5;
 
+let countEl = document.getElementById("count-el");
 
+console.log(countEl);
 
-// let myAge = 32;
+let count = 0;
 
-// console.log(myAge);
-
-// let myAge = 10;
-// let humanDogRatio = 7;
-// let myDogAge = myAge * humanDogRatio;
-
-// console.log(myDogAge);
-
-
-// let count = 0;
-
-// count = count + 1;
-
-// console.log(count);
-
-
-
-// let bonusPoints = 50;
-
-// bonusPoints = bonusPoints + 50;
-// console.log(bonusPoints);
-
-// bonusPoints = bonusPoints - 75;
-// console.log(bonusPoints);
-
-// bonusPoints = bonusPoints + 45;
-// console.log(bonusPoints);
-
-// function increment() {
-// console.log("The button was clicked");
-
-// }
-
-// function countdown() {
-//     console.log(5);
-//     console.log(4);
-//     console.log(3);
-//     console.log(2);
-//     console.log(1);
-// }
-
-// countdown();
-
-// countdown();
-
-// function myLogger() {
-//     console.log(5);
-//     console.log(4);
-//     console.log(3);
-//     console.log(2);
-//     console.log(1);
-// }
-
-let lap1 = 34;
-let lap2 = 33;
-let lap3 = 36;
-
-function lapTime() {
-    let totalTime= lap1 + lap2 + lap3;
-    console.log(totalTime);
+function increment() {
+    count = count + 1;
+    countEl.innerText = count;
 }
 
 lapTime();
+
+function save() {
+    // let lapTime = count + " - ";
+    // document.getElementById("lap-time").innerText += lapTime;
+    // count = 0;
+    // countEl.innerText = count;
+    console.log(count);
+}
+
+let name = "Iryna";
+
+let greeting = "Hi, my name is "
+
+let myGreeting = greeting + name;
+
+console.log(myGreeting);
