@@ -1,30 +1,41 @@
 // document.getElementById("count-el").innerText = 5;
 
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
+let count = 0;
 
 console.log(countEl);
 
-let count = 0;
-
 function increment() {
-    count = count + 1;
+    count += 1;
     countEl.innerText = count;
 }
 
-lapTime();
-
 function save() {
-    // let lapTime = count + " - ";
-    // document.getElementById("lap-time").innerText += lapTime;
-    // count = 0;
-    // countEl.innerText = count;
-    console.log(count);
+    let countStr = " " + count + " ,";
+    saveEl.innerText += countStr;
+    countEl.textContent = 0;
+    count = 0;
 }
 
-let name = "Iryna";
+// function result(){
+//     let message = " Previous entires: " + count;
+//     saveEl.innerText = message;
+//     console.log(message);
+// }
 
-let greeting = "Hi, my name is "
 
-let myGreeting = greeting + name;
+// let saveBtn = document.getElementById("save-btn");
 
-console.log(myGreeting);
+
+// let message = " people in the train";
+
+
+// // console,log(saveBtn);
+
+// function save() {
+//     saveBtn.innerText = count + message;
+//     console.log(message);
+
+// }
+
