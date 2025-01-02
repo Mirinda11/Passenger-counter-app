@@ -15,7 +15,6 @@ body{
     text-align: center;
     overflow: hidden;
     color: beige;
-
 }
 
 .container {
@@ -49,7 +48,6 @@ button , .increment-btn , .save-btn {
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 #increment-btn{
