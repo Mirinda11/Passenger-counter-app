@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .container {
     width: 1200px;
     height: auto;
@@ -21,6 +20,7 @@ body{
     font-weight: bold;
     text-align: center;
     overflow: hidden;
+    color: beige;
 }
 
 .container{
@@ -31,17 +31,11 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-/* img {
-    max-width: 600px;
-    max-height: 100%;
-    display: block;
-} */
 
 h1{
-
     margin-top: 140px;
     margin-bottom: 10px;
-    color: beige;
+
 }
 
 h2{
@@ -50,7 +44,6 @@ h2{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    color: beige;
 }
 
 button , .increment-btn , .save-btn {
@@ -61,7 +54,6 @@ button , .increment-btn , .save-btn {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color:beige;
     border-radius: 5px;
 }
 
@@ -86,10 +78,7 @@ button , .increment-btn , .save-btn {
 
 p{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
-    color: beige;
     margin-bottom: 100px;
     margin-top: 20px;
     font-size: 20px;
