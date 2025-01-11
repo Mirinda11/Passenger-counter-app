@@ -17,3 +17,9 @@ function save() {
     countEl.textContent = 0;
     count = 0;
 }
+
+
+let firstName = "Iryna";
+let lastName = "Koval";
+let fullName = firstName + " " + lastName;
+console.log(fullName);
